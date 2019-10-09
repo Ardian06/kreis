@@ -16,5 +16,12 @@ namespace kreis1
         {
             InitializeComponent();
         }
+
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            base.OnPaint(e);
+
+        }
     }
 }
